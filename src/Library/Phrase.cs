@@ -60,7 +60,7 @@ namespace WordsPhrases
             }
 
             string result = phrase.ToString().Trim();
-            // Aca se trimea 
+            // Aca se trimea el primer espacio antes de cada palabra
 
             // Remueve el primer espacio que se agrega siempre
 
