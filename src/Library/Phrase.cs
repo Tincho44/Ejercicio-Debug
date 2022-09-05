@@ -52,11 +52,15 @@ namespace WordsPhrases
 
             foreach (Word word in this.words)
             {
+                
                 phrase.Append(" ");
                 phrase.Append(word.Text);
+                
+            
             }
 
-            string result = phrase.ToString();
+            string result = phrase.ToString().Trim();
+            // Aca se trimea 
 
             // Remueve el primer espacio que se agrega siempre
 

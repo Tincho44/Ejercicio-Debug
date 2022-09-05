@@ -30,7 +30,8 @@ namespace WordsPhrases
         {
             get
             {
-                return this.text;
+                return this.text.Trim();
+                // Aca se "Trimea" el espacio luego de la palabra 
             }
 
             set
